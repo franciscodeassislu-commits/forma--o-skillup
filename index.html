@@ -10,8 +10,8 @@
 
 <body> <!--Corpo-->
     <header> <!--Cabeçalho-->
-        <h1>Curso de Desenvolvimento Web</h1>
-        <nav> <!--Navegação-->
+        <h1>Curso de <strong>Desenvolvimento Web</strong></h1>
+        <nav id="menu"> <!--Navegação-->
             <a href="#" >Sobre mim</a>
             <a href="#">Curso</a>
             <a href="#">Contacto</a>
@@ -19,11 +19,13 @@
     </header>
 
     <main> <!--Primcimpal-->
-        <h2>sobre mim</h2>
-        <P>ola! esta e minha primeira pagina web</P>
-        <p>Estou a Aprender html</p>
+        <section class="card">
+            <h2>sobre mim</h2>
+            <P>ola! esta e minha primeira pagina web</P>
+            <p>Estou a Aprender html</p>
+        </section>
 
-        <section> <!--Seção de lista-->
+        <section class="ul"> <!--Seção de lista-->
             <ul> <!--Lista não ordenada-->
                 <li>HTML</li>
                 <li>CSS</li>
@@ -31,7 +33,7 @@
             </ul>
         </section>
 
-        <section> <!--Seção de lista-->
+        <section class="ol"> <!--Seção de lista-->
             <ol> <!--Lista ordenada-->
                 <li>HTML</li>
                 <li>CSS</li>
@@ -57,8 +59,9 @@
          <button type="submit">Enviar</button>
     </form><!--Fim do formul-->
 
-    <footer > <!--Rodadapé-->
-        <P >Curso de Desenvolvimento Web</P>
+    <footer id="contacto"> <!--Rodadapé-->
+        <P>Curso de Desenvolvimento Web</P>
+        <h1>Contacto</h1>
     </footer>
 
 </body>
